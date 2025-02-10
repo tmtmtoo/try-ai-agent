@@ -1,5 +1,5 @@
 {
-  description = "try-dlt-dbt";
+  description = "try-roo-code";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -13,6 +13,10 @@
       in
       {
         devShell = pkgs.mkShell {
+          buildInputs = [
+            pkgs.nodejs
+            pkgs.pnpm_10
+          ];
         };
         formatter = pkgs.nixfmt-rfc-style;
       }
