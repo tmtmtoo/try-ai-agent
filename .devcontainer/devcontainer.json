@@ -1,11 +1,15 @@
 {
     "image": "ghcr.io/xtruder/nix-devcontainer:latest",
+    "features": {
+        "docker-in-docker": "latest"
+    },
     "forwardPorts": [],
     "customizations": {
         "vscode": {
             "extensions": [
                 "jnoortheen.nix-ide",
-                "vscodevim.vim"
+                "vscodevim.vim",
+                "dorzey.vscode-sqlfluff"
             ]
         }
     }

@@ -20,6 +20,11 @@
           buildInputs = [
             pkgs.nodejs
             pkgs.pnpm_10
+            pkgs.docker-client
+            pkgs.sqldef
+            pkgs.sqlc
+            pkgs.postgresql
+            pkgs.sqlfluff
           ];
         };
         formatter = pkgs.alejandra;
