@@ -1,5 +1,5 @@
 {
-  "name": "try-roo-code",
+  "name": "try-ai-agent",
   "scripts": {
     "test": "turbo test"
   },

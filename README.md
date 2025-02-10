@@ -1,3 +1,3 @@
-# try-roo-code
+# try-ai-agent
 
 WIP

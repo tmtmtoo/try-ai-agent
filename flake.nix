@@ -1,5 +1,5 @@
 {
-  description = "try-roo-code";
+  description = "try-ai-agent";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
