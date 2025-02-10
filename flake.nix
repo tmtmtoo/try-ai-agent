@@ -26,6 +26,9 @@
             pkgs.postgresql
             pkgs.sqlfluff
           ];
+          shellHook = ''
+            pnpm install --frozen-lockfile
+          '';
         };
         formatter = pkgs.alejandra;
       }

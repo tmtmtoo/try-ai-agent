@@ -9,7 +9,8 @@
             "extensions": [
                 "jnoortheen.nix-ide",
                 "vscodevim.vim",
-                "dorzey.vscode-sqlfluff"
+                "dorzey.vscode-sqlfluff",
+                "GitHub.copilot"
             ]
         }
     }
